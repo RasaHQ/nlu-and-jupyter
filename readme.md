@@ -11,7 +11,7 @@ and [altair](https://altair-viz.github.io/).
 To get started with the project you'll want to install the requirements
 and train a Rasa model. 
 
-```
+```bash
 # First install all requirements
 python -m pip install --upgrade pip
 python -m pip install -r requirements 
@@ -22,7 +22,7 @@ rasa train nlu
 Once you've got a trained model you can select it from the `guide-to-jupyter.ipynb` notebook. 
 We advice running the notebook via jupyter lab. 
 
-```
+```bash
 python -m jupyter lab 
 ```
 
